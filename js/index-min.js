@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=jQuery(document).width(),o=jQuery(document).height();console.log(e)});

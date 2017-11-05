@@ -39,11 +39,110 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/img\/ashtrix.png": {
+		"ft": 32768,
+		"iS": 17242,
+		"oA": 0,
+		"oAP": "\/img\/ashtrix.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/biology.png": {
+		"ft": 32768,
+		"iS": 922365,
+		"oA": 0,
+		"oAP": "\/img\/biology.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/brainwaves.png": {
+		"ft": 32768,
+		"iS": 551965,
+		"oA": 0,
+		"oAP": "\/img\/brainwaves.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/gunnhacks.png": {
+		"ft": 32768,
+		"iS": 36440,
+		"oA": 0,
+		"oAP": "\/img\/gunnhacks.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/hackchair.png": {
+		"ft": 32768,
+		"iS": 25891,
+		"oA": 0,
+		"oAP": "\/img\/hackchair.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/prioritize.png": {
+		"ft": 32768,
+		"iS": 9430,
+		"oA": 0,
+		"oAP": "\/img\/prioritize.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/scholars.png": {
+		"ft": 32768,
+		"iS": 315376,
+		"oA": 0,
+		"oAP": "\/img\/scholars.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/tech.png": {
 		"ft": 32768,
-		"iS": 460767,
+		"iS": 460186,
 		"oA": 0,
 		"oAP": "\/img\/tech.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/typewriter.png": {
+		"ft": 32768,
+		"iS": 908028,
+		"oA": 0,
+		"oAP": "\/img\/typewriter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wolly.png": {
+		"ft": 32768,
+		"iS": 273408,
+		"oA": 0,
+		"oAP": "\/img\/wolly.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -57,12 +156,50 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/index-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/index-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/website-design.sketch": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/website-design.sketch",
-		"oF": 0
+		"oF": 1
 		}
 	},
 "hooks": [
@@ -72,8 +209,8 @@
 "projectAttributes": {
 	"creationDate": 531556905,
 	"displayValue": "Website",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-punDog"
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-ron"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1465,7 +1602,7 @@
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
-	"hideConfigFile": 0,
+	"hideConfigFile": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
