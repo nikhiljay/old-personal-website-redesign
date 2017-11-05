@@ -29,6 +29,7 @@ p {
   font-size: 40px;
   font-weight: 400;
   color: #000;
+  margin-top: 0px;
 }
 
 p.sub {
@@ -42,7 +43,7 @@ p.sub {
 }
 
 #intro {
-  background-color: #598043;
+  background-color: #fff;
   position: relative;
   top: 0;
   right: 0;
@@ -52,22 +53,23 @@ p.sub {
 }
 
 .intro-body {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   text-align: center;
-  width: 1000px;
-  transform: translate(0%, 80%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
 }
 
 #technology {
-  background-color: #986043;
-  height: 70vh
+  background-color: #EDEDED;
 }
 
 .tech-container {
-  padding-top: 60px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 60px 60px 26px 60px;
 }
 
 .centered {
