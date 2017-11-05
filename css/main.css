@@ -46,6 +46,7 @@ p.sub.desc {
   color: #4A4A4A;
   margin-top: 5px;
   position: relative;
+  margin-left: 0;
 }
 
 .overflow-hidden {
