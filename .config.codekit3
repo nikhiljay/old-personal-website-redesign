@@ -94,6 +94,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/plus-icon.png": {
+		"ft": 32768,
+		"iS": 642,
+		"oA": 0,
+		"oAP": "\/img\/plus-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/prioritize.png": {
 		"ft": 32768,
 		"iS": 9430,
@@ -143,6 +154,17 @@
 		"iS": 273408,
 		"oA": 0,
 		"oAP": "\/img\/wolly.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wwdc-background.png": {
+		"ft": 32768,
+		"iS": 1053252,
+		"oA": 0,
+		"oAP": "\/img\/wwdc-background.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
