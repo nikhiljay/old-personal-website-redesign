@@ -7,6 +7,7 @@ h1 {
   font-size: 120px;
   font-weight: 700;
   color: #000;
+  margin-bottom: -20px;
 }
 
 h2 {
@@ -81,9 +82,61 @@ p.sub.desc {
   position: absolute;
   width: 1000px;
   text-align: center;
-  top: 45%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#typed {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Roboto;
+  font-size: 55px;
+  font-weight: 500;
+  margin-top: -100px;
+  color: #000;
+}
+
+.typed-cursor {
+  font-size: 55px;
+  opacity: 1;
+  -webkit-animation: blink 0.8s infinite;
+  -moz-animation: blink 0.8s infinite;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #technology {
@@ -323,6 +376,12 @@ img.bio-pic {
   .intro-body {
     width: 650px;
   }
+  #typed {
+    font-size: 40px;
+  }
+  .typed-cursor {
+    font-size: 40px;
+  }
   .card.center-block.img-responsive {
     width: 50%;
   }
@@ -341,6 +400,7 @@ img.bio-pic {
   h1 {
     font-size: 60px;
     line-height: 1.1;
+    margin-bottom: 5px;
   }
   h2 {
     font-size: 50px;
@@ -357,6 +417,12 @@ img.bio-pic {
   }
   .intro-body {
     width: 325px;
+  }
+  #typed {
+    font-size: 27px;
+  }
+  .typed-cursor {
+    font-size: 27px;
   }
   .interest-container {
     padding: 26px 26px 26px 26px;
