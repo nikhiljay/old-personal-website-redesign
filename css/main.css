@@ -44,7 +44,7 @@ h5 {
 
 p {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, Roboto;
-  font-size: 40px;
+  font-size: 27px;
   font-weight: 400;
   color: #000;
   margin-top: 0px;
@@ -79,13 +79,11 @@ p.sub.desc {
   margin: auto;
   text-align: center;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-left: 50px;
-  padding-right: 50px;
-  height: 50%;
+  width: 1000px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #technology {
@@ -173,7 +171,7 @@ p.sub {
   margin-left: 30px;
   bottom: 0px;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 p.sub.white {
@@ -258,20 +256,21 @@ img.bio-pic {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 50vh;
+  height: 400px;
 }
 
 .contact-body {
   margin: auto;
-  margin-top: 120px;
   text-align: center;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 50%;
-  height: 75%;
+  width: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-container {
+  margin-top: 40px;
 }
 
 .fa {
@@ -285,23 +284,14 @@ img.bio-pic {
 
 .contact.linkedin:hover {
   color: #0077B5;
-  -webkit-transform: scale(1.048) translateY(-5px);
-  -ms-transform: scale(1.048) translateY(-5px);
-  transform: scale(1.048) translateY(-5px);
 }
 
 .contact.github:hover {
   color: #000;
-  -webkit-transform: scale(1.048) translateY(-5px);
-  -ms-transform: scale(1.048) translateY(-5px);
-  transform: scale(1.048) translateY(-5px);
 }
 
 .contact.twitter:hover {
   color: #00b6f1;
-  -webkit-transform: scale(1.048) translateY(-5px);
-  -ms-transform: scale(1.048) translateY(-5px);
-  transform: scale(1.048) translateY(-5px);
 }
 
 @media only screen and (max-width: 1068px) {
@@ -321,8 +311,14 @@ img.bio-pic {
   p.desc {
     font-size: 17px;
   }
+  .intro-body {
+    width: 650px;
+  }
   .card.center-block.img-responsive {
     width: 50%;
+  }
+  .contact-body {
+    width: 600px;
   }
 }
 
@@ -345,9 +341,22 @@ img.bio-pic {
     font-size: 16px;
   }
   .intro-body {
-    margin-top: 25%;
+    width: 350px;
   }
   .interest-container {
     padding: 26px 26px 26px 26px;
+  }
+  #contact {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .fa {
+    font-size: 60px;
+  }
+  .col-sm-3 {
+    margin-bottom: 10px;
+  }
+  .contact-container {
+    margin-top: 10px;
   }
 }
