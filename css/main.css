@@ -23,7 +23,7 @@ h3 {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, Roboto;
   font-size: 55px;
   font-weight: 500;
-  margin-top: -100px;
+  margin-top: 0px;
   color: #000;
 }
 
@@ -92,7 +92,7 @@ p.sub.desc {
   font-size: 55px;
   font-weight: 500;
   margin-top: -100px;
-  color: #000;
+  color: #e74c3c;
 }
 
 .typed-cursor {
@@ -365,7 +365,7 @@ img.bio-pic {
   }
   h3 {
     font-size: 40px;
-    margin-top: -80px;
+    margin-top: 0px;
   }
   p {
     font-size: 25px;
@@ -407,7 +407,7 @@ img.bio-pic {
   }
   h3 {
     font-size: 27px;
-    margin-top: -35px;
+    margin-top: 0px;
   }
   p {
     font-size: 19px;
