@@ -12,10 +12,12 @@ h1 {
 
 h2 {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, Roboto;
-  font-size: 64px;
-  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.10746;
+  font-weight: 500;
+  letter-spacing: .004em;
   color: #000;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   margin-top: 0px;
 }
 
@@ -45,8 +47,10 @@ h5 {
 
 p {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, Roboto;
-  font-size: 27px;
-  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.45455;
+  font-weight: 300;
+  letter-spacing: .016em;
   color: #000;
   margin-top: 0px;
 }
@@ -361,14 +365,20 @@ img.bio-pic {
     font-size: 90px;
   }
   h2 {
-    font-size: 50px;
+    font-size: 48px;
+    line-height: 1.125;
+    font-weight: 500;
+    letter-spacing: .006em;
   }
   h3 {
     font-size: 40px;
     margin-top: 0px;
   }
   p {
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: .017em;
   }
   p.desc {
     font-size: 17px;
@@ -403,7 +413,10 @@ img.bio-pic {
     margin-bottom: 5px;
   }
   h2 {
-    font-size: 50px;
+    font-size: 38px;
+    line-height: 1.15825;
+    font-weight: 500;
+    letter-spacing: .009em;
   }
   h3 {
     font-size: 27px;
@@ -411,6 +424,9 @@ img.bio-pic {
   }
   p {
     font-size: 19px;
+    line-height: 1.47384;
+    font-weight: 300;
+    letter-spacing: .018em;
   }
   p.desc {
     font-size: 16px;
